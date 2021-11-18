@@ -7,7 +7,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=< change it to your timezone > # Use TZ database name from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      - TZ=Asia/Kolkata # Use TZ database name from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     volumes:
       - </path/to/folder>/tachidesk:/home/suwayomi/.local/share/Tachidesk
     ports:
